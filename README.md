@@ -1,4 +1,4 @@
-sleepblaster_ios
+Sleep Blaster for iOS
 ================
 
 Sleep Blaster for iPhone and iPad is an alarm clock app that allows the user to set an alarm at a geographical boundary instead of just a time. It also allows the user to turn off the alarm using his or her voice. 
