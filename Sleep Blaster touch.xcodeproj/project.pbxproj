@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Sleep_Blaster_touchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Sleep_Blaster_touchAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E107C3D3115C9C3D00BF4BCA /* pinkNoise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E107C3D2115C9C3D00BF4BCA /* pinkNoise.m4a */; };
+		E107C3D6115C9C5900BF4BCA /* TBFOceanWaveGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3D5115C9C5900BF4BCA /* TBFOceanWaveGenerator.m */; };
+		E107C3EA115C9CA000BF4BCA /* Randomizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3E9115C9CA000BF4BCA /* Randomizer.m */; };
+		E10822A91075C60A0017B639 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10822A81075C60A0017B639 /* QuartzCore.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E10BCD4A1191429E0013C7BD /* MapDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10BCD491191429E0013C7BD /* MapDrawingViewController.m */; };
+		E10E4EDA116026A1006BD725 /* sleepTimerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E10E4ED9116026A1006BD725 /* sleepTimerButton.png */; };
+		E10E526811626EBB006BD725 /* alarmMiniLCD.png in Resources */ = {isa = PBXBuildFile; fileRef = E10E526711626EBB006BD725 /* alarmMiniLCD.png */; };
+		E1102C4C111369EE00CF462E /* SleepTimerSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1102C4A111369EE00CF462E /* SleepTimerSettingsViewController.m */; };
+		E1102C4D111369EE00CF462E /* SleepTimerSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1102C4B111369EE00CF462E /* SleepTimerSettingsView.xib */; };
+		E11130700FE591160037335E /* AlarmSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E111306F0FE591160037335E /* AlarmSettingsViewController.m */; };
+		E11130790FE5925B0037335E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11130780FE5925B0037335E /* MediaPlayer.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E1136F1310BF63B100CB9E67 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1136F1210BF63B100CB9E67 /* digital-7.ttf */; };
+		E117E2C110C39B5D006723EF /* ShadowedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E117E2C010C39B5D006723EF /* ShadowedLabel.m */; };
+		E1183DDF0FF846EC003850BF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1183DDE0FF846EC003850BF /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E1183DE30FF84707003850BF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1183DE20FF84707003850BF /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E11A30DC106C410600BE7E70 /* AlarmController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11A30DB106C410600BE7E70 /* AlarmController.m */; };
+		E11B79B71170F6DE008CFF9B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B79B51170F6DE008CFF9B /* MapViewController.m */; };
+		E11B79B81170F6DE008CFF9B /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11B79B61170F6DE008CFF9B /* MapView.xib */; };
+		E11B79FD1170FB39008CFF9B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11B79FC1170FB39008CFF9B /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E11B7A0E1170FFD6008CFF9B /* MapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B7A0D1170FFD6008CFF9B /* MapAnnotationView.m */; };
+		E11B7B28117145AC008CFF9B /* MapLinesAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B7B27117145AC008CFF9B /* MapLinesAnnotation.m */; };
+		E11B7B5F11714FC5008CFF9B /* MapDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E11B7B5E11714FC5008CFF9B /* MapDrawingView.m */; };
+		E11B7BBB11715DD5008CFF9B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11B7BBA11715DD5008CFF9B /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E11EA134123AF31D00BC86BA /* blueTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = E11EA131123AF31D00BC86BA /* blueTrack.png */; };
+		E11EA135123AF31D00BC86BA /* whiteSlide.png in Resources */ = {isa = PBXBuildFile; fileRef = E11EA132123AF31D00BC86BA /* whiteSlide.png */; };
+		E11EA136123AF31D00BC86BA /* whiteTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = E11EA133123AF31D00BC86BA /* whiteTrack.png */; };
+		E11EE29610E990C100342E69 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = E11EE29510E990C100342E69 /* ClockView.m */; };
+		E11EE33710EB26A900342E69 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = E11EE33610EB26A900342E69 /* info.png */; };
+		E12348881184CB7700820805 /* mapBottomBar.png in Resources */ = {isa = PBXBuildFile; fileRef = E12348871184CB7700820805 /* mapBottomBar.png */; };
+		E1266AB91223AFF500B92121 /* bell-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = E1266AB81223AFF500B92121 /* bell-iPad.png */; };
+		E1266B8A1224EEF500B92121 /* AlarmSettingsView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1266B891224EEF500B92121 /* AlarmSettingsView-iPad.xib */; };
+		E1266BC31224FAC800B92121 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1266BC21224FAC800B92121 /* MainWindow-iPad.xib */; };
+		E1266BE51225003F00B92121 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1266BE41225003F00B92121 /* MainWindow.xib */; };
+		E1329D1D108EF09700787D98 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1329D1C108EF09700787D98 /* explosion.mp3 */; };
+		E1329DA91090A8CC00787D98 /* noSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1329DA81090A8CC00787D98 /* noSound.wav */; };
+		E1329DAC1090A8FD00787D98 /* DeepSleepPreventer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1329DAB1090A8FD00787D98 /* DeepSleepPreventer.m */; };
+		E14143FD11EEDA9100273935 /* KeypadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14143FB11EEDA9100273935 /* KeypadViewController.m */; };
+		E14143FE11EEDA9100273935 /* KeypadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14143FC11EEDA9100273935 /* KeypadView.xib */; };
+		E141443011EEE1D600273935 /* NSLocale+Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = E141442F11EEE1D600273935 /* NSLocale+Misc.m */; };
+		E15428ED10D0B57A0042935C /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = E15428EC10D0B57A0042935C /* digital-7 (italic).ttf */; };
+		E17720881136CD44001FB7D7 /* VoiceSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17720861136CD44001FB7D7 /* VoiceSettingsViewController.m */; };
+		E17720891136CD44001FB7D7 /* VoiceSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E17720871136CD44001FB7D7 /* VoiceSettingsView.xib */; };
+		E17B68BF111779E90036C941 /* CustomUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = E17B68BE111779E90036C941 /* CustomUISwitch.m */; };
+		E187560B118574CF00656ADB /* redDrawButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E187560A118574CF00656ADB /* redDrawButton.png */; };
+		E1875654118615E800656ADB /* redDrawButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E1875653118615E800656ADB /* redDrawButtonPressed.png */; };
+		E1875674118637E600656ADB /* clockIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1875673118637E600656ADB /* clockIcon.png */; };
+		E187568A1186764900656ADB /* hourGlassIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E18756891186764900656ADB /* hourGlassIcon.png */; };
+		E18756C31186A47B00656ADB /* currentLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = E18756C21186A47B00656ADB /* currentLocation.png */; };
+		E1882D87122D8B45000901AB /* segmentedControlOceanWavesDeselected.png in Resources */ = {isa = PBXBuildFile; fileRef = E1882D84122D8B45000901AB /* segmentedControlOceanWavesDeselected.png */; };
+		E1882D88122D8B45000901AB /* segmentedControlMusicSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = E1882D85122D8B45000901AB /* segmentedControlMusicSelected.png */; };
+		E1882D89122D8B45000901AB /* segmentedControlOceanWavesSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = E1882D86122D8B45000901AB /* segmentedControlOceanWavesSelected.png */; };
+		E1882D8B122D8B4B000901AB /* segmentedControlMusicDeselected.png in Resources */ = {isa = PBXBuildFile; fileRef = E1882D8A122D8B4B000901AB /* segmentedControlMusicDeselected.png */; };
+		E1882D8F122D8BC5000901AB /* lightRowTop.png in Resources */ = {isa = PBXBuildFile; fileRef = E1882D8E122D8BC5000901AB /* lightRowTop.png */; };
+		E19237BB11648D9F0034780C /* translucentScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = E19237BA11648D9F0034780C /* translucentScreen.png */; };
+		E19237D8116496630034780C /* fastForward.png in Resources */ = {isa = PBXBuildFile; fileRef = E19237D7116496630034780C /* fastForward.png */; };
+		E19237DA1164969A0034780C /* rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = E19237D91164969A0034780C /* rewind.png */; };
+		E19238401165DBA90034780C /* NoArtwork.tif in Resources */ = {isa = PBXBuildFile; fileRef = E192383F1165DBA90034780C /* NoArtwork.tif */; };
+		E19238731168854D0034780C /* stopSleepTimerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E19238721168854D0034780C /* stopSleepTimerButton.png */; };
+		E1973FDF103783CD0093AB67 /* AlarmRingingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1973FDD103783CD0093AB67 /* AlarmRingingViewController.m */; };
+		E1973FE0103783CD0093AB67 /* AlarmRingingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1973FDE103783CD0093AB67 /* AlarmRingingView.xib */; };
+		E1973FE71037862E0093AB67 /* TimeBar.png in Resources */ = {isa = PBXBuildFile; fileRef = E1973FE41037862E0093AB67 /* TimeBar.png */; };
+		E19DFACC12512081009763EA /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = E19DFACB12512081009763EA /* beep.wav */; };
+		E19DFC12125D8646009763EA /* silent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E19DFC11125D8646009763EA /* silent.mp3 */; };
+		E1A1487C10D4A3B900840EBA /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A1487B10D4A3B900840EBA /* bell.png */; };
+		E1A328D911889DAE006E9BAE /* currentLocationGlowing.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A328D811889DAE006E9BAE /* currentLocationGlowing.png */; };
+		E1A3294B1188D3C9006E9BAE /* findLine.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A3294A1188D3C9006E9BAE /* findLine.png */; };
+		E1A3C7B21154451500BFEEB6 /* numericButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A3C7B01154451500BFEEB6 /* numericButton.png */; };
+		E1A3C7B31154451500BFEEB6 /* numericButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A3C7B11154451500BFEEB6 /* numericButtonPressed.png */; };
+		E1A3C7BB1154465A00BFEEB6 /* numericBlueButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A3C7B91154465A00BFEEB6 /* numericBlueButtonPressed.png */; };
+		E1A3C7D2115446DD00BFEEB6 /* numericRedButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A3C7D0115446DD00BFEEB6 /* numericRedButtonPressed.png */; };
+		E1A400BB1027CDA200A5AB67 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1A400BA1027CDA200A5AB67 /* alarm.mp3 */; };
+		E1A400CC1027CF4E00A5AB67 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A400CB1027CF4E00A5AB67 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E1A84AF0124DE466008AA3D6 /* MapView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A84AEF124DE466008AA3D6 /* MapView-iPad.xib */; };
+		E1A8D298118A072F00B53A6A /* alarmOffButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A8D297118A072F00B53A6A /* alarmOffButton.png */; };
+		E1A8D29A118A074200B53A6A /* snoozeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A8D299118A074200B53A6A /* snoozeButton.png */; };
+		E1A8D2FD118A1C1000B53A6A /* alarmRingingBottomBar.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A8D2FC118A1C1000B53A6A /* alarmRingingBottomBar.png */; };
+		E1B427A61135B18D0002AF2D /* AlarmSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1B427A51135B18D0002AF2D /* AlarmSettingsView.xib */; };
+		E1BEDDDF1239E99C009BD347 /* EmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BEDDDE1239E99C009BD347 /* EmptyViewController.m */; };
+		E1BEDF25123A28A6009BD347 /* blackGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = E1BEDF24123A28A6009BD347 /* blackGlass.png */; };
+		E1C0E1E71240B3580074B386 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C0E1E61240B3580074B386 /* Icon.png */; };
+		E1C3269712298F0A00208ADC /* indicatorLightOff-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C3269612298F0A00208ADC /* indicatorLightOff-iPad.png */; };
+		E1C326BA1229B48200208ADC /* indicatorLightOn-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C326B91229B48200208ADC /* indicatorLightOn-iPad.png */; };
+		E1C327181229D12900208ADC /* disclosure-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C327171229D12900208ADC /* disclosure-iPad.png */; };
+		E1C327E2122A55BE00208ADC /* blackScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C327E1122A55BE00208ADC /* blackScreen.png */; };
+		E1C32901122B178200208ADC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C32900122B178200208ADC /* Icon-72.png */; };
+		E1C32915122B474800208ADC /* lightTexturedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C32914122B474800208ADC /* lightTexturedBackground.png */; };
+		E1C3292C122B4ABE00208ADC /* VoiceSettingsView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C3292B122B4ABE00208ADC /* VoiceSettingsView-iPad.xib */; };
+		E1C32988122B965600208ADC /* segmentedControlSnoozeSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C32987122B965600208ADC /* segmentedControlSnoozeSelected.png */; };
+		E1C3298A122B965900208ADC /* segmentedControlStopSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C32989122B965900208ADC /* segmentedControlStopSelected.png */; };
+		E1C32996122B9B0F00208ADC /* segmentedControlStop.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C32995122B9B0F00208ADC /* segmentedControlStop.png */; };
+		E1C32998122B9B1500208ADC /* segmentedControlSnooze.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C32997122B9B1500208ADC /* segmentedControlSnooze.png */; };
+		E1C32A1E122CC6CF00208ADC /* SleepTimerSettingsView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C32A1D122CC6CF00208ADC /* SleepTimerSettingsView-iPad.xib */; };
+		E1C3AC7D12400DED00697B56 /* clockView-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C3AC7C12400DED00697B56 /* clockView-iPad.png */; };
+		E1C3AC821240105B00697B56 /* ClockView.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C3AC811240105B00697B56 /* ClockView.png */; };
+		E1C3ACCA12408DB200697B56 /* numericBlueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C3ACC912408DB200697B56 /* numericBlueButton.png */; };
+		E1C3ACD612408F9500697B56 /* numericRedButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C3ACD512408F9500697B56 /* numericRedButton.png */; };
+		E1C3ACF61240978A00697B56 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C3ACF51240978A00697B56 /* Icon@2x.png */; };
+		E1C84245122874F70016D705 /* lightRow.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C84244122874F70016D705 /* lightRow.png */; };
+		E1C842B11228B61E0016D705 /* switch_on_lighter.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C842B01228B61E0016D705 /* switch_on_lighter.png */; };
+		E1C842B51228B6C20016D705 /* switch_off_lighter.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C842B41228B6C20016D705 /* switch_off_lighter.png */; };
+		E1C842C41228B8230016D705 /* switch_lighter.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C842C31228B8230016D705 /* switch_lighter.png */; };
+		E1C850E21231C273004D23F6 /* segmentedControlPlaceSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C850DE1231C273004D23F6 /* segmentedControlPlaceSelected.png */; };
+		E1C850E31231C273004D23F6 /* segmentedControlTimeDeselected.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C850DF1231C273004D23F6 /* segmentedControlTimeDeselected.png */; };
+		E1C850E41231C273004D23F6 /* segmentedControlPlaceDeselected.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C850E01231C273004D23F6 /* segmentedControlPlaceDeselected.png */; };
+		E1C850E51231C273004D23F6 /* segmentedControlTimeSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C850E11231C273004D23F6 /* segmentedControlTimeSelected.png */; };
+		E1CB6CFE101E8CB40008188B /* SCListener.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CB6CFD101E8CB40008188B /* SCListener.m */; };
+		E1CD26BF115A9CA600D26D79 /* SleepTimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CD26BE115A9CA600D26D79 /* SleepTimerController.m */; };
+		E1D3AE1E10BC8937001F61ED /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D3AE1C10BC8937001F61ED /* ClockViewController.m */; };
+		E1D95FF0126FFBE90028142E /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D95FEF126FFBE90028142E /* info@2x.png */; };
+		E1DB6D39117F99720089CC1A /* BlackSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DB6D38117F99720089CC1A /* BlackSegmentedControl.m */; };
+		E1E26CF610057ED000896840 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E26CF510057ED000896840 /* CoreGraphics.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E1EDCE581226F6AD005F3467 /* keypadBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E1EDCE571226F6AD005F3467 /* keypadBackground.png */; };
+		E1F36C3A118FB38B001B31ED /* dynamite.png in Resources */ = {isa = PBXBuildFile; fileRef = E1F36C39118FB38B001B31ED /* dynamite.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Sleep_Blaster_touchAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sleep_Blaster_touchAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Sleep_Blaster_touchAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sleep_Blaster_touchAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Sleep Blaster touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleep Blaster touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* Sleep_Blaster_touch_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sleep_Blaster_touch_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Sleep_Blaster_touch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sleep_Blaster_touch-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E107C3D2115C9C3D00BF4BCA /* pinkNoise.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinkNoise.m4a; sourceTree = "<group>"; };
+		E107C3D4115C9C5900BF4BCA /* TBFOceanWaveGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBFOceanWaveGenerator.h; sourceTree = "<group>"; };
+		E107C3D5115C9C5900BF4BCA /* TBFOceanWaveGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBFOceanWaveGenerator.m; sourceTree = "<group>"; };
+		E107C3E8115C9CA000BF4BCA /* Randomizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Randomizer.h; sourceTree = "<group>"; };
+		E107C3E9115C9CA000BF4BCA /* Randomizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Randomizer.m; sourceTree = "<group>"; };
+		E10822A81075C60A0017B639 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E10BCD481191429E0013C7BD /* MapDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDrawingViewController.h; sourceTree = "<group>"; };
+		E10BCD491191429E0013C7BD /* MapDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDrawingViewController.m; sourceTree = "<group>"; };
+		E10E4ED9116026A1006BD725 /* sleepTimerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleepTimerButton.png; sourceTree = "<group>"; };
+		E10E526711626EBB006BD725 /* alarmMiniLCD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarmMiniLCD.png; sourceTree = "<group>"; };
+		E1102C49111369EE00CF462E /* SleepTimerSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepTimerSettingsViewController.h; sourceTree = "<group>"; };
+		E1102C4A111369EE00CF462E /* SleepTimerSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepTimerSettingsViewController.m; sourceTree = "<group>"; };
+		E1102C4B111369EE00CF462E /* SleepTimerSettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SleepTimerSettingsView.xib; sourceTree = "<group>"; };
+		E111306E0FE591160037335E /* AlarmSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlarmSettingsViewController.h; path = Classes/AlarmSettingsViewController.h; sourceTree = "<group>"; };
+		E111306F0FE591160037335E /* AlarmSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlarmSettingsViewController.m; path = Classes/AlarmSettingsViewController.m; sourceTree = "<group>"; };
+		E11130780FE5925B0037335E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E1136F1210BF63B100CB9E67 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		E117E2BF10C39B5D006723EF /* ShadowedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowedLabel.h; sourceTree = "<group>"; };
+		E117E2C010C39B5D006723EF /* ShadowedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowedLabel.m; sourceTree = "<group>"; };
+		E1183DDE0FF846EC003850BF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E1183DE20FF84707003850BF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E11A30DA106C410600BE7E70 /* AlarmController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmController.h; sourceTree = "<group>"; };
+		E11A30DB106C410600BE7E70 /* AlarmController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmController.m; sourceTree = "<group>"; };
+		E11B79B41170F6DE008CFF9B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		E11B79B51170F6DE008CFF9B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		E11B79B61170F6DE008CFF9B /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		E11B79FC1170FB39008CFF9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E11B7A0C1170FFD6008CFF9B /* MapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotationView.h; sourceTree = "<group>"; };
+		E11B7A0D1170FFD6008CFF9B /* MapAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotationView.m; sourceTree = "<group>"; };
+		E11B7B26117145AC008CFF9B /* MapLinesAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLinesAnnotation.h; sourceTree = "<group>"; };
+		E11B7B27117145AC008CFF9B /* MapLinesAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLinesAnnotation.m; sourceTree = "<group>"; };
+		E11B7B5D11714FC5008CFF9B /* MapDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDrawingView.h; sourceTree = "<group>"; };
+		E11B7B5E11714FC5008CFF9B /* MapDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDrawingView.m; sourceTree = "<group>"; };
+		E11B7BBA11715DD5008CFF9B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E11EA131123AF31D00BC86BA /* blueTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueTrack.png; sourceTree = "<group>"; };
+		E11EA132123AF31D00BC86BA /* whiteSlide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteSlide.png; sourceTree = "<group>"; };
+		E11EA133123AF31D00BC86BA /* whiteTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteTrack.png; sourceTree = "<group>"; };
+		E11EE29410E990C100342E69 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
+		E11EE29510E990C100342E69 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
+		E11EE33610EB26A900342E69 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		E12348871184CB7700820805 /* mapBottomBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapBottomBar.png; sourceTree = "<group>"; };
+		E1266AB81223AFF500B92121 /* bell-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell-iPad.png"; sourceTree = "<group>"; };
+		E1266B891224EEF500B92121 /* AlarmSettingsView-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "AlarmSettingsView-iPad.xib"; sourceTree = "<group>"; };
+		E1266BC21224FAC800B92121 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		E1266BE41225003F00B92121 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		E1329D1C108EF09700787D98 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		E1329DA81090A8CC00787D98 /* noSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noSound.wav; sourceTree = "<group>"; };
+		E1329DAA1090A8FD00787D98 /* DeepSleepPreventer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepSleepPreventer.h; sourceTree = "<group>"; };
+		E1329DAB1090A8FD00787D98 /* DeepSleepPreventer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeepSleepPreventer.m; sourceTree = "<group>"; };
+		E14143FA11EEDA9100273935 /* KeypadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeypadViewController.h; sourceTree = "<group>"; };
+		E14143FB11EEDA9100273935 /* KeypadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeypadViewController.m; sourceTree = "<group>"; };
+		E14143FC11EEDA9100273935 /* KeypadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeypadView.xib; sourceTree = "<group>"; };
+		E141442E11EEE1D600273935 /* NSLocale+Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLocale+Misc.h"; path = "../NSLocale+Misc.h"; sourceTree = "<group>"; };
+		E141442F11EEE1D600273935 /* NSLocale+Misc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLocale+Misc.m"; path = "../NSLocale+Misc.m"; sourceTree = "<group>"; };
+		E15428EC10D0B57A0042935C /* digital-7 (italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (italic).ttf"; sourceTree = "<group>"; };
+		E17720851136CD44001FB7D7 /* VoiceSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceSettingsViewController.h; sourceTree = "<group>"; };
+		E17720861136CD44001FB7D7 /* VoiceSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceSettingsViewController.m; sourceTree = "<group>"; };
+		E17720871136CD44001FB7D7 /* VoiceSettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoiceSettingsView.xib; sourceTree = "<group>"; };
+		E17B68BD111779E90036C941 /* CustomUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUISwitch.h; sourceTree = "<group>"; };
+		E17B68BE111779E90036C941 /* CustomUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUISwitch.m; sourceTree = "<group>"; };
+		E187560A118574CF00656ADB /* redDrawButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redDrawButton.png; sourceTree = "<group>"; };
+		E1875653118615E800656ADB /* redDrawButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redDrawButtonPressed.png; sourceTree = "<group>"; };
+		E1875673118637E600656ADB /* clockIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockIcon.png; sourceTree = "<group>"; };
+		E18756891186764900656ADB /* hourGlassIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourGlassIcon.png; sourceTree = "<group>"; };
+		E18756C21186A47B00656ADB /* currentLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currentLocation.png; sourceTree = "<group>"; };
+		E1882D84122D8B45000901AB /* segmentedControlOceanWavesDeselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlOceanWavesDeselected.png; sourceTree = "<group>"; };
+		E1882D85122D8B45000901AB /* segmentedControlMusicSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlMusicSelected.png; sourceTree = "<group>"; };
+		E1882D86122D8B45000901AB /* segmentedControlOceanWavesSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlOceanWavesSelected.png; sourceTree = "<group>"; };
+		E1882D8A122D8B4B000901AB /* segmentedControlMusicDeselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlMusicDeselected.png; sourceTree = "<group>"; };
+		E1882D8E122D8BC5000901AB /* lightRowTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightRowTop.png; sourceTree = "<group>"; };
+		E19237BA11648D9F0034780C /* translucentScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = translucentScreen.png; sourceTree = "<group>"; };
+		E19237D7116496630034780C /* fastForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fastForward.png; sourceTree = "<group>"; };
+		E19237D91164969A0034780C /* rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rewind.png; sourceTree = "<group>"; };
+		E192383F1165DBA90034780C /* NoArtwork.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = NoArtwork.tif; sourceTree = "<group>"; };
+		E19238721168854D0034780C /* stopSleepTimerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopSleepTimerButton.png; sourceTree = "<group>"; };
+		E1973FDC103783CD0093AB67 /* AlarmRingingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmRingingViewController.h; sourceTree = "<group>"; };
+		E1973FDD103783CD0093AB67 /* AlarmRingingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmRingingViewController.m; sourceTree = "<group>"; };
+		E1973FDE103783CD0093AB67 /* AlarmRingingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmRingingView.xib; sourceTree = "<group>"; };
+		E1973FE41037862E0093AB67 /* TimeBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeBar.png; sourceTree = "<group>"; };
+		E19D466B0FED61A600553EE2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E19DFACB12512081009763EA /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		E19DFC11125D8646009763EA /* silent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silent.mp3; sourceTree = "<group>"; };
+		E1A1487B10D4A3B900840EBA /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
+		E1A328D811889DAE006E9BAE /* currentLocationGlowing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currentLocationGlowing.png; sourceTree = "<group>"; };
+		E1A3294A1188D3C9006E9BAE /* findLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = findLine.png; sourceTree = "<group>"; };
+		E1A3C7B01154451500BFEEB6 /* numericButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numericButton.png; sourceTree = "<group>"; };
+		E1A3C7B11154451500BFEEB6 /* numericButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numericButtonPressed.png; sourceTree = "<group>"; };
+		E1A3C7B91154465A00BFEEB6 /* numericBlueButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numericBlueButtonPressed.png; sourceTree = "<group>"; };
+		E1A3C7D0115446DD00BFEEB6 /* numericRedButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numericRedButtonPressed.png; sourceTree = "<group>"; };
+		E1A400BA1027CDA200A5AB67 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
+		E1A400CB1027CF4E00A5AB67 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E1A84AEF124DE466008AA3D6 /* MapView-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MapView-iPad.xib"; sourceTree = "<group>"; };
+		E1A8D297118A072F00B53A6A /* alarmOffButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarmOffButton.png; sourceTree = "<group>"; };
+		E1A8D299118A074200B53A6A /* snoozeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snoozeButton.png; sourceTree = "<group>"; };
+		E1A8D2FC118A1C1000B53A6A /* alarmRingingBottomBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarmRingingBottomBar.png; sourceTree = "<group>"; };
+		E1B427A51135B18D0002AF2D /* AlarmSettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmSettingsView.xib; sourceTree = "<group>"; };
+		E1BEDDDD1239E99C009BD347 /* EmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmptyViewController.h; path = Classes/EmptyViewController.h; sourceTree = "<group>"; };
+		E1BEDDDE1239E99C009BD347 /* EmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmptyViewController.m; path = Classes/EmptyViewController.m; sourceTree = "<group>"; };
+		E1BEDF24123A28A6009BD347 /* blackGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackGlass.png; sourceTree = "<group>"; };
+		E1C0E1E61240B3580074B386 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E1C3269612298F0A00208ADC /* indicatorLightOff-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicatorLightOff-iPad.png"; sourceTree = "<group>"; };
+		E1C326B91229B48200208ADC /* indicatorLightOn-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indicatorLightOn-iPad.png"; sourceTree = "<group>"; };
+		E1C327171229D12900208ADC /* disclosure-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disclosure-iPad.png"; sourceTree = "<group>"; };
+		E1C327E1122A55BE00208ADC /* blackScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackScreen.png; sourceTree = "<group>"; };
+		E1C32900122B178200208ADC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		E1C32914122B474800208ADC /* lightTexturedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightTexturedBackground.png; sourceTree = "<group>"; };
+		E1C3292B122B4ABE00208ADC /* VoiceSettingsView-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "VoiceSettingsView-iPad.xib"; sourceTree = "<group>"; };
+		E1C32987122B965600208ADC /* segmentedControlSnoozeSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlSnoozeSelected.png; sourceTree = "<group>"; };
+		E1C32989122B965900208ADC /* segmentedControlStopSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlStopSelected.png; sourceTree = "<group>"; };
+		E1C32995122B9B0F00208ADC /* segmentedControlStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlStop.png; sourceTree = "<group>"; };
+		E1C32997122B9B1500208ADC /* segmentedControlSnooze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlSnooze.png; sourceTree = "<group>"; };
+		E1C32A1D122CC6CF00208ADC /* SleepTimerSettingsView-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "SleepTimerSettingsView-iPad.xib"; sourceTree = "<group>"; };
+		E1C3AC7C12400DED00697B56 /* clockView-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clockView-iPad.png"; sourceTree = "<group>"; };
+		E1C3AC811240105B00697B56 /* ClockView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClockView.png; sourceTree = "<group>"; };
+		E1C3ACC912408DB200697B56 /* numericBlueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numericBlueButton.png; sourceTree = "<group>"; };
+		E1C3ACD512408F9500697B56 /* numericRedButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numericRedButton.png; sourceTree = "<group>"; };
+		E1C3ACF51240978A00697B56 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E1C84244122874F70016D705 /* lightRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightRow.png; sourceTree = "<group>"; };
+		E1C842B01228B61E0016D705 /* switch_on_lighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_on_lighter.png; sourceTree = "<group>"; };
+		E1C842B41228B6C20016D705 /* switch_off_lighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_off_lighter.png; sourceTree = "<group>"; };
+		E1C842C31228B8230016D705 /* switch_lighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch_lighter.png; sourceTree = "<group>"; };
+		E1C850DE1231C273004D23F6 /* segmentedControlPlaceSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlPlaceSelected.png; sourceTree = "<group>"; };
+		E1C850DF1231C273004D23F6 /* segmentedControlTimeDeselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlTimeDeselected.png; sourceTree = "<group>"; };
+		E1C850E01231C273004D23F6 /* segmentedControlPlaceDeselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlPlaceDeselected.png; sourceTree = "<group>"; };
+		E1C850E11231C273004D23F6 /* segmentedControlTimeSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentedControlTimeSelected.png; sourceTree = "<group>"; };
+		E1CB6CFC101E8CB40008188B /* SCListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCListener.h; sourceTree = "<group>"; };
+		E1CB6CFD101E8CB40008188B /* SCListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCListener.m; sourceTree = "<group>"; };
+		E1CD26BD115A9CA600D26D79 /* SleepTimerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepTimerController.h; sourceTree = "<group>"; };
+		E1CD26BE115A9CA600D26D79 /* SleepTimerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepTimerController.m; sourceTree = "<group>"; };
+		E1D3AE1B10BC8937001F61ED /* ClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		E1D3AE1C10BC8937001F61ED /* ClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		E1D95FEF126FFBE90028142E /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		E1DB6D37117F99720089CC1A /* BlackSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackSegmentedControl.h; sourceTree = "<group>"; };
+		E1DB6D38117F99720089CC1A /* BlackSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackSegmentedControl.m; sourceTree = "<group>"; };
+		E1E26CF510057ED000896840 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1EDCE571226F6AD005F3467 /* keypadBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypadBackground.png; sourceTree = "<group>"; };
+		E1F36C39118FB38B001B31ED /* dynamite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dynamite.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				E11130790FE5925B0037335E /* MediaPlayer.framework in Frameworks */,
+				E1183DDF0FF846EC003850BF /* AudioToolbox.framework in Frameworks */,
+				E1183DE30FF84707003850BF /* CoreFoundation.framework in Frameworks */,
+				E1E26CF610057ED000896840 /* CoreGraphics.framework in Frameworks */,
+				E1A400CC1027CF4E00A5AB67 /* AVFoundation.framework in Frameworks */,
+				E10822A91075C60A0017B639 /* QuartzCore.framework in Frameworks */,
+				E11B79FD1170FB39008CFF9B /* MapKit.framework in Frameworks */,
+				E11B7BBB11715DD5008CFF9B /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E141442E11EEE1D600273935 /* NSLocale+Misc.h */,
+				E141442F11EEE1D600273935 /* NSLocale+Misc.m */,
+				E107C3E8115C9CA000BF4BCA /* Randomizer.h */,
+				E107C3E9115C9CA000BF4BCA /* Randomizer.m */,
+				E107C3D4115C9C5900BF4BCA /* TBFOceanWaveGenerator.h */,
+				E107C3D5115C9C5900BF4BCA /* TBFOceanWaveGenerator.m */,
+				E1CD26BD115A9CA600D26D79 /* SleepTimerController.h */,
+				E1CD26BE115A9CA600D26D79 /* SleepTimerController.m */,
+				E1CB6CFC101E8CB40008188B /* SCListener.h */,
+				E17B68BD111779E90036C941 /* CustomUISwitch.h */,
+				E17B68BE111779E90036C941 /* CustomUISwitch.m */,
+				E1CB6CFD101E8CB40008188B /* SCListener.m */,
+				1D3623240D0F684500981E51 /* Sleep_Blaster_touchAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Sleep_Blaster_touchAppDelegate.m */,
+				E19D466B0FED61A600553EE2 /* Constants.h */,
+				E11A30DA106C410600BE7E70 /* AlarmController.h */,
+				E11A30DB106C410600BE7E70 /* AlarmController.m */,
+				E117E2BF10C39B5D006723EF /* ShadowedLabel.h */,
+				E117E2C010C39B5D006723EF /* ShadowedLabel.m */,
+				E1DB6D37117F99720089CC1A /* BlackSegmentedControl.h */,
+				E1DB6D38117F99720089CC1A /* BlackSegmentedControl.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Sleep Blaster touch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Sleep Blaster touch */ = {
+			isa = PBXGroup;
+			children = (
+				E11B7A3811711F75008CFF9B /* Map */,
+				E1329DA41090A8B000787D98 /* DeepSleepPreventer */,
+				E11A31AC106C629200BE7E70 /* View Controllers */,
+				E11A31AB106C628800BE7E70 /* Views */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				E10FE239121ED54800904361 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Sleep Blaster touch";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* Sleep_Blaster_touch_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1D95FEF126FFBE90028142E /* info@2x.png */,
+				E19DFC11125D8646009763EA /* silent.mp3 */,
+				E19DFACB12512081009763EA /* beep.wav */,
+				E1C0E1E61240B3580074B386 /* Icon.png */,
+				E1C3ACF51240978A00697B56 /* Icon@2x.png */,
+				E1C3ACD512408F9500697B56 /* numericRedButton.png */,
+				E1C3ACC912408DB200697B56 /* numericBlueButton.png */,
+				E1C3AC811240105B00697B56 /* ClockView.png */,
+				E1C850DE1231C273004D23F6 /* segmentedControlPlaceSelected.png */,
+				E1C850DF1231C273004D23F6 /* segmentedControlTimeDeselected.png */,
+				E1C850E01231C273004D23F6 /* segmentedControlPlaceDeselected.png */,
+				E1C850E11231C273004D23F6 /* segmentedControlTimeSelected.png */,
+				E1C84244122874F70016D705 /* lightRow.png */,
+				E1882D8A122D8B4B000901AB /* segmentedControlMusicDeselected.png */,
+				E1882D84122D8B45000901AB /* segmentedControlOceanWavesDeselected.png */,
+				E1882D85122D8B45000901AB /* segmentedControlMusicSelected.png */,
+				E1882D86122D8B45000901AB /* segmentedControlOceanWavesSelected.png */,
+				E1EDCE571226F6AD005F3467 /* keypadBackground.png */,
+				E14143FC11EEDA9100273935 /* KeypadView.xib */,
+				E1F36C39118FB38B001B31ED /* dynamite.png */,
+				E1A8D2FC118A1C1000B53A6A /* alarmRingingBottomBar.png */,
+				E1A8D299118A074200B53A6A /* snoozeButton.png */,
+				E1A8D297118A072F00B53A6A /* alarmOffButton.png */,
+				E1A3294A1188D3C9006E9BAE /* findLine.png */,
+				E1A328D811889DAE006E9BAE /* currentLocationGlowing.png */,
+				E18756C21186A47B00656ADB /* currentLocation.png */,
+				E18756891186764900656ADB /* hourGlassIcon.png */,
+				E1875673118637E600656ADB /* clockIcon.png */,
+				E1875653118615E800656ADB /* redDrawButtonPressed.png */,
+				E187560A118574CF00656ADB /* redDrawButton.png */,
+				E12348871184CB7700820805 /* mapBottomBar.png */,
+				E11B79B61170F6DE008CFF9B /* MapView.xib */,
+				E19238721168854D0034780C /* stopSleepTimerButton.png */,
+				E192383F1165DBA90034780C /* NoArtwork.tif */,
+				E19237D7116496630034780C /* fastForward.png */,
+				E19237D91164969A0034780C /* rewind.png */,
+				E19237BA11648D9F0034780C /* translucentScreen.png */,
+				E10E526711626EBB006BD725 /* alarmMiniLCD.png */,
+				E10E4ED9116026A1006BD725 /* sleepTimerButton.png */,
+				E107C3D2115C9C3D00BF4BCA /* pinkNoise.m4a */,
+				E1A3C7D0115446DD00BFEEB6 /* numericRedButtonPressed.png */,
+				E1A3C7B91154465A00BFEEB6 /* numericBlueButtonPressed.png */,
+				E1A3C7B01154451500BFEEB6 /* numericButton.png */,
+				E1A3C7B11154451500BFEEB6 /* numericButtonPressed.png */,
+				E1B427A51135B18D0002AF2D /* AlarmSettingsView.xib */,
+				E17720871136CD44001FB7D7 /* VoiceSettingsView.xib */,
+				E1102C4B111369EE00CF462E /* SleepTimerSettingsView.xib */,
+				E11EE33610EB26A900342E69 /* info.png */,
+				E1A1487B10D4A3B900840EBA /* bell.png */,
+				E15428EC10D0B57A0042935C /* digital-7 (italic).ttf */,
+				E1136F1210BF63B100CB9E67 /* digital-7.ttf */,
+				E1329D1C108EF09700787D98 /* explosion.mp3 */,
+				E1973FE41037862E0093AB67 /* TimeBar.png */,
+				E1973FDE103783CD0093AB67 /* AlarmRingingView.xib */,
+				E1A400BA1027CDA200A5AB67 /* alarm.mp3 */,
+				8D1107310486CEB800E47090 /* Sleep_Blaster_touch-Info.plist */,
+				E1266BE41225003F00B92121 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E10822A81075C60A0017B639 /* QuartzCore.framework */,
+				E1A400CB1027CF4E00A5AB67 /* AVFoundation.framework */,
+				E1E26CF510057ED000896840 /* CoreGraphics.framework */,
+				E1183DE20FF84707003850BF /* CoreFoundation.framework */,
+				E1183DDE0FF846EC003850BF /* AudioToolbox.framework */,
+				E11130780FE5925B0037335E /* MediaPlayer.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				E11B79FC1170FB39008CFF9B /* MapKit.framework */,
+				E11B7BBA11715DD5008CFF9B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E10FE239121ED54800904361 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3AC7C12400DED00697B56 /* clockView-iPad.png */,
+				E11EA131123AF31D00BC86BA /* blueTrack.png */,
+				E11EA132123AF31D00BC86BA /* whiteSlide.png */,
+				E11EA133123AF31D00BC86BA /* whiteTrack.png */,
+				E1BEDF24123A28A6009BD347 /* blackGlass.png */,
+				E1882D8E122D8BC5000901AB /* lightRowTop.png */,
+				E1C32997122B9B1500208ADC /* segmentedControlSnooze.png */,
+				E1C32995122B9B0F00208ADC /* segmentedControlStop.png */,
+				E1C32989122B965900208ADC /* segmentedControlStopSelected.png */,
+				E1C32987122B965600208ADC /* segmentedControlSnoozeSelected.png */,
+				E1C32914122B474800208ADC /* lightTexturedBackground.png */,
+				E1C32900122B178200208ADC /* Icon-72.png */,
+				E1C327E1122A55BE00208ADC /* blackScreen.png */,
+				E1C327171229D12900208ADC /* disclosure-iPad.png */,
+				E1C326B91229B48200208ADC /* indicatorLightOn-iPad.png */,
+				E1C3269612298F0A00208ADC /* indicatorLightOff-iPad.png */,
+				E1C842C31228B8230016D705 /* switch_lighter.png */,
+				E1C842B41228B6C20016D705 /* switch_off_lighter.png */,
+				E1C842B01228B61E0016D705 /* switch_on_lighter.png */,
+				E1266BC21224FAC800B92121 /* MainWindow-iPad.xib */,
+				E1266AB81223AFF500B92121 /* bell-iPad.png */,
+				E1266B891224EEF500B92121 /* AlarmSettingsView-iPad.xib */,
+				E1C3292B122B4ABE00208ADC /* VoiceSettingsView-iPad.xib */,
+				E1C32A1D122CC6CF00208ADC /* SleepTimerSettingsView-iPad.xib */,
+				E1A84AEF124DE466008AA3D6 /* MapView-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		E11A31AB106C628800BE7E70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E11EE29410E990C100342E69 /* ClockView.h */,
+				E11EE29510E990C100342E69 /* ClockView.m */,
+				E11B7B27117145AC008CFF9B /* MapLinesAnnotation.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E11A31AC106C629200BE7E70 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1BEDDDD1239E99C009BD347 /* EmptyViewController.h */,
+				E1BEDDDE1239E99C009BD347 /* EmptyViewController.m */,
+				E14143FA11EEDA9100273935 /* KeypadViewController.h */,
+				E14143FB11EEDA9100273935 /* KeypadViewController.m */,
+				E1973FDC103783CD0093AB67 /* AlarmRingingViewController.h */,
+				E1973FDD103783CD0093AB67 /* AlarmRingingViewController.m */,
+				E111306E0FE591160037335E /* AlarmSettingsViewController.h */,
+				E111306F0FE591160037335E /* AlarmSettingsViewController.m */,
+				E17720851136CD44001FB7D7 /* VoiceSettingsViewController.h */,
+				E17720861136CD44001FB7D7 /* VoiceSettingsViewController.m */,
+				E1D3AE1B10BC8937001F61ED /* ClockViewController.h */,
+				E1D3AE1C10BC8937001F61ED /* ClockViewController.m */,
+				E1102C49111369EE00CF462E /* SleepTimerSettingsViewController.h */,
+				E1102C4A111369EE00CF462E /* SleepTimerSettingsViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E11B7A3811711F75008CFF9B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E11B79B41170F6DE008CFF9B /* MapViewController.h */,
+				E11B79B51170F6DE008CFF9B /* MapViewController.m */,
+				E11B7A0C1170FFD6008CFF9B /* MapAnnotationView.h */,
+				E11B7A0D1170FFD6008CFF9B /* MapAnnotationView.m */,
+				E11B7B26117145AC008CFF9B /* MapLinesAnnotation.h */,
+				E11B7B5D11714FC5008CFF9B /* MapDrawingView.h */,
+				E11B7B5E11714FC5008CFF9B /* MapDrawingView.m */,
+				E10BCD481191429E0013C7BD /* MapDrawingViewController.h */,
+				E10BCD491191429E0013C7BD /* MapDrawingViewController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		E1329DA41090A8B000787D98 /* DeepSleepPreventer */ = {
+			isa = PBXGroup;
+			children = (
+				E1329DA81090A8CC00787D98 /* noSound.wav */,
+				E1329DAA1090A8FD00787D98 /* DeepSleepPreventer.h */,
+				E1329DAB1090A8FD00787D98 /* DeepSleepPreventer.m */,
+			);
+			name = DeepSleepPreventer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Sleep Blaster touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sleep Blaster touch" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sleep Blaster touch";
+			productName = "Sleep Blaster touch";
+			productReference = 1D6058910D05DD3D006BFB54 /* Sleep Blaster touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sleep Blaster touch" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Sleep Blaster touch */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Sleep Blaster touch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A400BB1027CDA200A5AB67 /* alarm.mp3 in Resources */,
+				E1973FE0103783CD0093AB67 /* AlarmRingingView.xib in Resources */,
+				E1973FE71037862E0093AB67 /* TimeBar.png in Resources */,
+				E1329D1D108EF09700787D98 /* explosion.mp3 in Resources */,
+				E1329DA91090A8CC00787D98 /* noSound.wav in Resources */,
+				E1136F1310BF63B100CB9E67 /* digital-7.ttf in Resources */,
+				E15428ED10D0B57A0042935C /* digital-7 (italic).ttf in Resources */,
+				E1A1487C10D4A3B900840EBA /* bell.png in Resources */,
+				E11EE33710EB26A900342E69 /* info.png in Resources */,
+				E1102C4D111369EE00CF462E /* SleepTimerSettingsView.xib in Resources */,
+				E1B427A61135B18D0002AF2D /* AlarmSettingsView.xib in Resources */,
+				E17720891136CD44001FB7D7 /* VoiceSettingsView.xib in Resources */,
+				E1A3C7B21154451500BFEEB6 /* numericButton.png in Resources */,
+				E1A3C7B31154451500BFEEB6 /* numericButtonPressed.png in Resources */,
+				E1A3C7BB1154465A00BFEEB6 /* numericBlueButtonPressed.png in Resources */,
+				E1A3C7D2115446DD00BFEEB6 /* numericRedButtonPressed.png in Resources */,
+				E107C3D3115C9C3D00BF4BCA /* pinkNoise.m4a in Resources */,
+				E10E4EDA116026A1006BD725 /* sleepTimerButton.png in Resources */,
+				E10E526811626EBB006BD725 /* alarmMiniLCD.png in Resources */,
+				E19237BB11648D9F0034780C /* translucentScreen.png in Resources */,
+				E19237D8116496630034780C /* fastForward.png in Resources */,
+				E19237DA1164969A0034780C /* rewind.png in Resources */,
+				E19238401165DBA90034780C /* NoArtwork.tif in Resources */,
+				E19238731168854D0034780C /* stopSleepTimerButton.png in Resources */,
+				E11B79B81170F6DE008CFF9B /* MapView.xib in Resources */,
+				E12348881184CB7700820805 /* mapBottomBar.png in Resources */,
+				E187560B118574CF00656ADB /* redDrawButton.png in Resources */,
+				E1875654118615E800656ADB /* redDrawButtonPressed.png in Resources */,
+				E1875674118637E600656ADB /* clockIcon.png in Resources */,
+				E187568A1186764900656ADB /* hourGlassIcon.png in Resources */,
+				E18756C31186A47B00656ADB /* currentLocation.png in Resources */,
+				E1A328D911889DAE006E9BAE /* currentLocationGlowing.png in Resources */,
+				E1A3294B1188D3C9006E9BAE /* findLine.png in Resources */,
+				E1A8D298118A072F00B53A6A /* alarmOffButton.png in Resources */,
+				E1A8D29A118A074200B53A6A /* snoozeButton.png in Resources */,
+				E1A8D2FD118A1C1000B53A6A /* alarmRingingBottomBar.png in Resources */,
+				E1F36C3A118FB38B001B31ED /* dynamite.png in Resources */,
+				E14143FE11EEDA9100273935 /* KeypadView.xib in Resources */,
+				E1266AB91223AFF500B92121 /* bell-iPad.png in Resources */,
+				E1266B8A1224EEF500B92121 /* AlarmSettingsView-iPad.xib in Resources */,
+				E1266BC31224FAC800B92121 /* MainWindow-iPad.xib in Resources */,
+				E1266BE51225003F00B92121 /* MainWindow.xib in Resources */,
+				E1EDCE581226F6AD005F3467 /* keypadBackground.png in Resources */,
+				E1C84245122874F70016D705 /* lightRow.png in Resources */,
+				E1C842B11228B61E0016D705 /* switch_on_lighter.png in Resources */,
+				E1C842B51228B6C20016D705 /* switch_off_lighter.png in Resources */,
+				E1C842C41228B8230016D705 /* switch_lighter.png in Resources */,
+				E1C3269712298F0A00208ADC /* indicatorLightOff-iPad.png in Resources */,
+				E1C326BA1229B48200208ADC /* indicatorLightOn-iPad.png in Resources */,
+				E1C327181229D12900208ADC /* disclosure-iPad.png in Resources */,
+				E1C327E2122A55BE00208ADC /* blackScreen.png in Resources */,
+				E1C32901122B178200208ADC /* Icon-72.png in Resources */,
+				E1C32915122B474800208ADC /* lightTexturedBackground.png in Resources */,
+				E1C3292C122B4ABE00208ADC /* VoiceSettingsView-iPad.xib in Resources */,
+				E1C32988122B965600208ADC /* segmentedControlSnoozeSelected.png in Resources */,
+				E1C3298A122B965900208ADC /* segmentedControlStopSelected.png in Resources */,
+				E1C32996122B9B0F00208ADC /* segmentedControlStop.png in Resources */,
+				E1C32998122B9B1500208ADC /* segmentedControlSnooze.png in Resources */,
+				E1C32A1E122CC6CF00208ADC /* SleepTimerSettingsView-iPad.xib in Resources */,
+				E1882D87122D8B45000901AB /* segmentedControlOceanWavesDeselected.png in Resources */,
+				E1882D88122D8B45000901AB /* segmentedControlMusicSelected.png in Resources */,
+				E1882D89122D8B45000901AB /* segmentedControlOceanWavesSelected.png in Resources */,
+				E1882D8B122D8B4B000901AB /* segmentedControlMusicDeselected.png in Resources */,
+				E1882D8F122D8BC5000901AB /* lightRowTop.png in Resources */,
+				E1C850E21231C273004D23F6 /* segmentedControlPlaceSelected.png in Resources */,
+				E1C850E31231C273004D23F6 /* segmentedControlTimeDeselected.png in Resources */,
+				E1C850E41231C273004D23F6 /* segmentedControlPlaceDeselected.png in Resources */,
+				E1C850E51231C273004D23F6 /* segmentedControlTimeSelected.png in Resources */,
+				E1BEDF25123A28A6009BD347 /* blackGlass.png in Resources */,
+				E11EA134123AF31D00BC86BA /* blueTrack.png in Resources */,
+				E11EA135123AF31D00BC86BA /* whiteSlide.png in Resources */,
+				E11EA136123AF31D00BC86BA /* whiteTrack.png in Resources */,
+				E1C3AC7D12400DED00697B56 /* clockView-iPad.png in Resources */,
+				E1C3AC821240105B00697B56 /* ClockView.png in Resources */,
+				E1C3ACCA12408DB200697B56 /* numericBlueButton.png in Resources */,
+				E1C3ACD612408F9500697B56 /* numericRedButton.png in Resources */,
+				E1C3ACF61240978A00697B56 /* Icon@2x.png in Resources */,
+				E1C0E1E71240B3580074B386 /* Icon.png in Resources */,
+				E1A84AF0124DE466008AA3D6 /* MapView-iPad.xib in Resources */,
+				E19DFACC12512081009763EA /* beep.wav in Resources */,
+				E19DFC12125D8646009763EA /* silent.mp3 in Resources */,
+				E1D95FF0126FFBE90028142E /* info@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Sleep_Blaster_touchAppDelegate.m in Sources */,
+				E11130700FE591160037335E /* AlarmSettingsViewController.m in Sources */,
+				E1CB6CFE101E8CB40008188B /* SCListener.m in Sources */,
+				E1973FDF103783CD0093AB67 /* AlarmRingingViewController.m in Sources */,
+				E11A30DC106C410600BE7E70 /* AlarmController.m in Sources */,
+				E1329DAC1090A8FD00787D98 /* DeepSleepPreventer.m in Sources */,
+				E1D3AE1E10BC8937001F61ED /* ClockViewController.m in Sources */,
+				E117E2C110C39B5D006723EF /* ShadowedLabel.m in Sources */,
+				E11EE29610E990C100342E69 /* ClockView.m in Sources */,
+				E1102C4C111369EE00CF462E /* SleepTimerSettingsViewController.m in Sources */,
+				E17B68BF111779E90036C941 /* CustomUISwitch.m in Sources */,
+				E17720881136CD44001FB7D7 /* VoiceSettingsViewController.m in Sources */,
+				E1CD26BF115A9CA600D26D79 /* SleepTimerController.m in Sources */,
+				E107C3D6115C9C5900BF4BCA /* TBFOceanWaveGenerator.m in Sources */,
+				E107C3EA115C9CA000BF4BCA /* Randomizer.m in Sources */,
+				E11B79B71170F6DE008CFF9B /* MapViewController.m in Sources */,
+				E11B7A0E1170FFD6008CFF9B /* MapAnnotationView.m in Sources */,
+				E11B7B28117145AC008CFF9B /* MapLinesAnnotation.m in Sources */,
+				E11B7B5F11714FC5008CFF9B /* MapDrawingView.m in Sources */,
+				E1DB6D39117F99720089CC1A /* BlackSegmentedControl.m in Sources */,
+				E10BCD4A1191429E0013C7BD /* MapDrawingViewController.m in Sources */,
+				E14143FD11EEDA9100273935 /* KeypadViewController.m in Sources */,
+				E141443011EEE1D600273935 /* NSLocale+Misc.m in Sources */,
+				E1BEDDDF1239E99C009BD347 /* EmptyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sleep_Blaster_touch_Prefix.pch;
+				INFOPLIST_FILE = "Sleep_Blaster_touch-Info.plist";
+				PRODUCT_NAME = "Sleep Blaster touch";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sleep_Blaster_touch_Prefix.pch;
+				INFOPLIST_FILE = "Sleep_Blaster_touch-Info.plist";
+				PRODUCT_NAME = "Sleep Blaster touch";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1BE51CA1260014A00FEA0B4 /* Ad-hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad-hoc";
+		};
+		E1BE51CB1260014A00FEA0B4 /* Ad-hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sleep_Blaster_touch_Prefix.pch;
+				INFOPLIST_FILE = "Sleep_Blaster_touch-Info.plist";
+				PRODUCT_NAME = "Sleep Blaster touch";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Ad-hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sleep Blaster touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				E1BE51CB1260014A00FEA0B4 /* Ad-hoc */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sleep Blaster touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				E1BE51CA1260014A00FEA0B4 /* Ad-hoc */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

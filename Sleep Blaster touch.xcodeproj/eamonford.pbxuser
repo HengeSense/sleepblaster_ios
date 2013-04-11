@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Sleep_Blaster_touchAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 900}}";
+			sepNavSelRange = "{1303, 0}";
+			sepNavVisRange = "{443, 1785}";
+			sepNavWindowFrame = "{{294, 4}, {986, 774}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Sleep_Blaster_touchAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 6285}}";
+			sepNavSelRange = "{7365, 0}";
+			sepNavVisRange = "{6189, 1730}";
+			sepNavWindowFrame = "{{173, 5}, {1077, 773}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Sleep Blaster touch */ = {
+		activeExec = 0;
+		executables = (
+			E127F6450FDE410500833255 /* Sleep Blaster touch */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv6;
+		activeBuildConfigurationName = Release;
+		activeExecutable = E127F6450FDE410500833255 /* Sleep Blaster touch */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Sleep Blaster touch */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Sleep Blaster touch */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = E127F64C0FDE410C00833255 /* Code sense */;
+		executables = (
+			E127F6450FDE410500833255 /* Sleep Blaster touch */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					84,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					87,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					193,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					153,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 309328659;
+			PBXWorkspaceStateSaveDate = 309328659;
+		};
+		sourceControlManager = E127F64B0FDE410C00833255 /* Source Control */;
+		userBookmarkGroup = E10FE232121ED50300904361 /* PBXBookmarkGroup */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 646}}";
+			sepNavSelRange = "{365, 0}";
+			sepNavVisRange = "{0, 365}";
+			sepNavWindowFrame = "{{494, 4}, {986, 774}}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Sleep_Blaster_touch-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{351, 4}, {929, 774}}";
+		};
+	};
+	E107C3D4115C9C5900BF4BCA /* TBFOceanWaveGenerator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 623}}";
+			sepNavSelRange = "{526, 0}";
+			sepNavVisRange = "{0, 532}";
+			sepNavWindowFrame = "{{231, 4}, {929, 774}}";
+		};
+	};
+	E107C3D5115C9C5900BF4BCA /* TBFOceanWaveGenerator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1181, 1845}}";
+			sepNavSelRange = "{2091, 0}";
+			sepNavVisRange = "{274, 871}";
+			sepNavWindowFrame = "{{334, 4}, {929, 774}}";
+		};
+	};
+	E107C3E8115C9CA000BF4BCA /* Randomizer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {924, 285}}";
+			sepNavSelRange = "{176, 0}";
+			sepNavVisRange = "{0, 252}";
+		};
+	};
+	E10BCD481191429E0013C7BD /* MapDrawingViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1093, 646}}";
+			sepNavSelRange = "{355, 119}";
+			sepNavVisRange = "{0, 481}";
+			sepNavWindowFrame = "{{119, 4}, {1152, 774}}";
+		};
+	};
+	E10BCD491191429E0013C7BD /* MapDrawingViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 2385}}";
+			sepNavSelRange = "{4212, 0}";
+			sepNavVisRange = "{3608, 1004}";
+			sepNavWindowFrame = "{{51, 4}, {1152, 774}}";
+		};
+	};
+	E10E4ED9116026A1006BD725 /* sleepTimerButton.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 25}, {1092, 748}}";
+		};
+	};
+	E10E526711626EBB006BD725 /* alarmMiniLCD.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 25}, {1092, 748}}";
+		};
+	};
+	E10FE232121ED50300904361 /* PBXBookmarkGroup */ = {
+		isa = PBXBookmarkGroup;
+		children = (
+			E10FE27D121EF54300904361 /* PBXBookmark */,
+		);
+		name = Root;
+	};
+	E10FE27D121EF54300904361 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E1D3AE1D10BC8937001F61ED /* ClockView.xib */;
+	};
+	E1102C49111369EE00CF462E /* SleepTimerSettingsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 975}}";
+			sepNavSelRange = "{1768, 0}";
+			sepNavVisRange = "{632, 1179}";
+			sepNavWindowFrame = "{{279, 4}, {929, 774}}";
+		};
+	};
+	E1102C4A111369EE00CF462E /* SleepTimerSettingsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1135, 10800}}";
+			sepNavSelRange = "{6190, 0}";
+			sepNavVisRange = "{5626, 1577}";
+			sepNavWindowFrame = "{{86, 4}, {1194, 774}}";
+		};
+	};
+	E111306E0FE591160037335E /* AlarmSettingsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1195, 990}}";
+			sepNavSelRange = "{813, 0}";
+			sepNavVisRange = "{0, 1296}";
+			sepNavWindowFrame = "{{366, 4}, {914, 774}}";
+		};
+	};
+	E111306F0FE591160037335E /* AlarmSettingsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 23130}}";
+			sepNavSelRange = "{24842, 0}";
+			sepNavVisRange = "{0, 653}";
+			sepNavWindowFrame = "{{50, 4}, {1103, 774}}";
+		};
+	};
+	E117E2BF10C39B5D006723EF /* ShadowedLabel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 646}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRange = "{0, 345}";
+			sepNavWindowFrame = "{{15, 4}, {929, 774}}";
+		};
+	};
+	E117E2C010C39B5D006723EF /* ShadowedLabel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 840}}";
+			sepNavSelRange = "{537, 0}";
+			sepNavVisRange = "{150, 933}";
+			sepNavWindowFrame = "{{228, 4}, {929, 774}}";
+		};
+	};
+	E11A30DA106C410600BE7E70 /* AlarmController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 646}}";
+			sepNavSelRange = "{418, 0}";
+			sepNavVisRange = "{0, 898}";
+			sepNavWindowFrame = "{{41, 4}, {838, 774}}";
+		};
+	};
+	E11A30DB106C410600BE7E70 /* AlarmController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 9870}}";
+			sepNavSelRange = "{10715, 0}";
+			sepNavVisRange = "{9527, 1800}";
+			sepNavWindowFrame = "{{173, 4}, {1155, 774}}";
+		};
+	};
+	E11B79B41170F6DE008CFF9B /* MapViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1135, 660}}";
+			sepNavSelRange = "{572, 0}";
+			sepNavVisRange = "{3, 1335}";
+			sepNavWindowFrame = "{{86, 4}, {1194, 774}}";
+		};
+	};
+	E11B79B51170F6DE008CFF9B /* MapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1699, 8250}}";
+			sepNavSelRange = "{7614, 0}";
+			sepNavVisRange = "{6996, 1360}";
+			sepNavWindowFrame = "{{188, 4}, {1092, 748}}";
+		};
+	};
+	E11B7A0C1170FFD6008CFF9B /* MapAnnotationView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1135, 623}}";
+			sepNavSelRange = "{458, 0}";
+			sepNavVisRange = "{0, 458}";
+			sepNavWindowFrame = "{{15, 4}, {1194, 774}}";
+		};
+	};
+	E11B7A0D1170FFD6008CFF9B /* MapAnnotationView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1083, 2220}}";
+			sepNavSelRange = "{1027, 0}";
+			sepNavVisRange = "{841, 1456}";
+			sepNavWindowFrame = "{{216, 4}, {882, 774}}";
+		};
+	};
+	E11B7B26117145AC008CFF9B /* MapLinesAnnotation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1135, 623}}";
+			sepNavSelRange = "{499, 0}";
+			sepNavVisRange = "{0, 505}";
+			sepNavWindowFrame = "{{45, 4}, {1194, 774}}";
+		};
+	};
+	E11B7B27117145AC008CFF9B /* MapLinesAnnotation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {959, 885}}";
+			sepNavSelRange = "{397, 0}";
+			sepNavVisRange = "{223, 585}";
+			sepNavWindowFrame = "{{74, 4}, {1194, 774}}";
+		};
+	};
+	E11B7B5D11714FC5008CFF9B /* MapDrawingView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1135, 646}}";
+			sepNavSelRange = "{327, 0}";
+			sepNavVisRange = "{0, 495}";
+			sepNavWindowFrame = "{{0, 4}, {1194, 774}}";
+		};
+	};
+	E11B7B5E11714FC5008CFF9B /* MapDrawingView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 2610}}";
+			sepNavSelRange = "{3985, 0}";
+			sepNavVisRange = "{3565, 747}";
+			sepNavWindowFrame = "{{348, 6}, {823, 772}}";
+		};
+	};
+	E11EA131123AF31D00BC86BA /* blueTrack.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E11EE29410E990C100342E69 /* ClockView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 623}}";
+			sepNavSelRange = "{247, 0}";
+			sepNavVisRange = "{0, 256}";
+			sepNavWindowFrame = "{{15, 4}, {929, 774}}";
+		};
+	};
+	E11EE29510E990C100342E69 /* ClockView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 1545}}";
+			sepNavSelRange = "{2264, 0}";
+			sepNavVisRange = "{1795, 1075}";
+			sepNavWindowFrame = "{{341, 4}, {929, 774}}";
+		};
+	};
+	E11EE33610EB26A900342E69 /* info.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 4}, {1092, 748}}";
+		};
+	};
+	E12348871184CB7700820805 /* mapBottomBar.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1266AB81223AFF500B92121 /* bell-iPad.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E127F6450FDE410500833255 /* Sleep Blaster touch */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Sleep Blaster touch";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$lr = 1;
+			$pc = 1;
+			$r0 = 1;
+			$r1 = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r2 = 1;
+			$r3 = 1;
+			$r4 = 1;
+			$r5 = 1;
+			$r6 = 1;
+			$r7 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$sp = 1;
+		};
+	};
+	E127F64B0FDE410C00833255 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E127F64C0FDE410C00833255 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E1329DAA1090A8FD00787D98 /* DeepSleepPreventer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 623}}";
+			sepNavSelRange = "{512, 0}";
+			sepNavVisRange = "{0, 696}";
+			sepNavWindowFrame = "{{297, 4}, {929, 774}}";
+		};
+	};
+	E1329DAB1090A8FD00787D98 /* DeepSleepPreventer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1209, 2205}}";
+			sepNavSelRange = "{1491, 0}";
+			sepNavVisRange = "{360, 1334}";
+			sepNavWindowFrame = "{{162, 4}, {929, 774}}";
+		};
+	};
+	E14143FA11EEDA9100273935 /* KeypadViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1096, 646}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 419}";
+			sepNavWindowFrame = "{{15, 4}, {1155, 774}}";
+		};
+	};
+	E14143FB11EEDA9100273935 /* KeypadViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1455}}";
+			sepNavSelRange = "{437, 0}";
+			sepNavVisRange = "{288, 356}";
+			sepNavWindowFrame = "{{21, 4}, {1155, 774}}";
+		};
+	};
+	E141442E11EEE1D600273935 /* NSLocale+Misc.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1096, 646}}";
+			sepNavSelRange = "{213, 0}";
+			sepNavVisRange = "{0, 248}";
+			sepNavWindowFrame = "{{89, 4}, {1155, 774}}";
+		};
+	};
+	E141442F11EEE1D600273935 /* NSLocale+Misc.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1096, 646}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 765}";
+			sepNavWindowFrame = "{{72, 4}, {1155, 774}}";
+		};
+	};
+	E17720851136CD44001FB7D7 /* VoiceSettingsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 646}}";
+			sepNavSelRange = "{874, 0}";
+			sepNavVisRange = "{0, 875}";
+			sepNavWindowFrame = "{{351, 4}, {929, 774}}";
+		};
+	};
+	E17720861136CD44001FB7D7 /* VoiceSettingsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 5970}}";
+			sepNavSelRange = "{810, 136}";
+			sepNavVisRange = "{381, 1179}";
+			sepNavWindowFrame = "{{198, 4}, {929, 774}}";
+		};
+	};
+	E17B68BD111779E90036C941 /* CustomUISwitch.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 623}}";
+			sepNavSelRange = "{547, 0}";
+			sepNavVisRange = "{0, 933}";
+			sepNavWindowFrame = "{{127, 4}, {929, 774}}";
+		};
+	};
+	E17B68BE111779E90036C941 /* CustomUISwitch.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {959, 3240}}";
+			sepNavSelRange = "{5215, 0}";
+			sepNavVisRange = "{4820, 399}";
+			sepNavWindowFrame = "{{260, 4}, {929, 774}}";
+		};
+	};
+	E1875673118637E600656ADB /* clockIcon.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1152, 774}}";
+		};
+	};
+	E18756891186764900656ADB /* hourGlassIcon.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 25}, {1092, 748}}";
+		};
+	};
+	E1882D86122D8B45000901AB /* segmentedControlOceanWavesSelected.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1882D8A122D8B4B000901AB /* segmentedControlMusicDeselected.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1882D8E122D8BC5000901AB /* lightRowTop.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E19237BA11648D9F0034780C /* translucentScreen.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 25}, {1092, 748}}";
+		};
+	};
+	E19237D91164969A0034780C /* rewind.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E192383F1165DBA90034780C /* NoArtwork.tif */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1152, 774}}";
+		};
+	};
+	E19238721168854D0034780C /* stopSleepTimerButton.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 4}, {1092, 748}}";
+		};
+	};
+	E1973FDC103783CD0093AB67 /* AlarmRingingViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 623}}";
+			sepNavSelRange = "{567, 0}";
+			sepNavVisRange = "{0, 573}";
+			sepNavWindowFrame = "{{103, 4}, {986, 774}}";
+		};
+	};
+	E1973FDD103783CD0093AB67 /* AlarmRingingViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1845}}";
+			sepNavSelRange = "{1092, 0}";
+			sepNavVisRange = "{333, 1699}";
+			sepNavWindowFrame = "{{134, 4}, {986, 774}}";
+		};
+	};
+	E1973FE41037862E0093AB67 /* TimeBar.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {986, 774}}";
+		};
+	};
+	E19D466B0FED61A600553EE2 /* Constants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1018, 622}}";
+			sepNavSelRange = "{1188, 0}";
+			sepNavVisRange = "{0, 1380}";
+			sepNavWindowFrame = "{{16, 5}, {1077, 773}}";
+		};
+	};
+	E1A1487B10D4A3B900840EBA /* bell.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {929, 774}}";
+		};
+	};
+	E1A328D811889DAE006E9BAE /* currentLocationGlowing.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1A3294A1188D3C9006E9BAE /* findLine.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 4}, {1092, 748}}";
+		};
+	};
+	E1A3C7B01154451500BFEEB6 /* numericButton.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1A3C7B11154451500BFEEB6 /* numericButtonPressed.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1A3C7D0115446DD00BFEEB6 /* numericRedButtonPressed.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 25}, {1092, 748}}";
+		};
+	};
+	E1A8D297118A072F00B53A6A /* alarmOffButton.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1152, 774}}";
+		};
+	};
+	E1A8D299118A074200B53A6A /* snoozeButton.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1152, 774}}";
+		};
+	};
+	E1A8D2FC118A1C1000B53A6A /* alarmRingingBottomBar.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 25}, {1092, 748}}";
+		};
+	};
+	E1BEDDDD1239E99C009BD347 /* EmptyViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1044, 623}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 242}";
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1BEDDDE1239E99C009BD347 /* EmptyViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1044, 930}}";
+			sepNavSelRange = "{329, 0}";
+			sepNavVisRange = "{0, 975}";
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C0E1E61240B3580074B386 /* Icon.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C3269612298F0A00208ADC /* indicatorLightOff-iPad.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C326B91229B48200208ADC /* indicatorLightOn-iPad.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C327171229D12900208ADC /* disclosure-iPad.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C327E1122A55BE00208ADC /* blackScreen.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C32900122B178200208ADC /* Icon-72.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C32914122B474800208ADC /* lightTexturedBackground.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C32995122B9B0F00208ADC /* segmentedControlStop.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C32997122B9B1500208ADC /* segmentedControlSnooze.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C3AC7C12400DED00697B56 /* clockView-iPad.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C3ACF51240978A00697B56 /* Icon@2x.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C842B01228B61E0016D705 /* switch_on_lighter.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 25}, {1092, 748}}";
+		};
+	};
+	E1C842B41228B6C20016D705 /* switch_off_lighter.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C842C31228B8230016D705 /* switch_lighter.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1C850DE1231C273004D23F6 /* segmentedControlPlaceSelected.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+	E1CB6CFC101E8CB40008188B /* SCListener.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 623}}";
+			sepNavSelRange = "{433, 0}";
+			sepNavVisRange = "{0, 626}";
+			sepNavWindowFrame = "{{202, 4}, {986, 774}}";
+		};
+	};
+	E1CB6CFD101E8CB40008188B /* SCListener.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1559, 3630}}";
+			sepNavSelRange = "{903, 0}";
+			sepNavVisRange = "{604, 421}";
+			sepNavWindowFrame = "{{283, 4}, {986, 774}}";
+		};
+	};
+	E1CD26BD115A9CA600D26D79 /* SleepTimerController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 646}}";
+			sepNavSelRange = "{654, 0}";
+			sepNavVisRange = "{0, 654}";
+			sepNavWindowFrame = "{{351, 4}, {929, 774}}";
+		};
+	};
+	E1CD26BE115A9CA600D26D79 /* SleepTimerController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 2865}}";
+			sepNavSelRange = "{3448, 0}";
+			sepNavVisRange = "{2830, 1633}";
+			sepNavWindowFrame = "{{216, 4}, {929, 774}}";
+		};
+	};
+	E1D3AE1B10BC8937001F61ED /* ClockViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 1155}}";
+			sepNavSelRange = "{1723, 0}";
+			sepNavVisRange = "{0, 1444}";
+			sepNavWindowFrame = "{{111, 4}, {929, 774}}";
+		};
+	};
+	E1D3AE1C10BC8937001F61ED /* ClockViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 8415}}";
+			sepNavSelRange = "{11214, 0}";
+			sepNavVisRange = "{16776, 1473}";
+			sepNavWindowFrame = "{{295, 4}, {929, 774}}";
+		};
+	};
+	E1D3AE1D10BC8937001F61ED /* ClockView.xib */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file.xib;
+		name = ClockView.xib;
+		path = "/Users/eamonford/Desktop/Sleep Blaster touch/ClockView.xib";
+		sourceTree = "<absolute>";
+	};
+	E1DB6D37117F99720089CC1A /* BlackSegmentedControl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1093, 646}}";
+			sepNavSelRange = "{237, 0}";
+			sepNavVisRange = "{0, 249}";
+			sepNavWindowFrame = "{{15, 4}, {1152, 774}}";
+		};
+	};
+	E1DB6D38117F99720089CC1A /* BlackSegmentedControl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1093, 660}}";
+			sepNavSelRange = "{588, 0}";
+			sepNavVisRange = "{3, 640}";
+			sepNavWindowFrame = "{{15, 4}, {1152, 774}}";
+		};
+	};
+	E1EDCE571226F6AD005F3467 /* keypadBackground.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1103, 774}}";
+		};
+	};
+}
